@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "Say Hello World",
-      "setup": "Javac *.java",
-      "run": "java -cp . HelloName",
+      "name": "test",
+      "setup": "",
+      "run": "gradle test",
       "input": "",
-      "output": "Hello world!",
+      "output": "",
       "comparison": "included",
       "timeout": 10,
       "points": 10
